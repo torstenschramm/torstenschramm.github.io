@@ -15463,7 +15463,7 @@ var Constants = {
 var RuntimeOptions = {
   physx: false,
   loader: false,
-  xrFramebufferScaleFactor: 1,
+  xrFramebufferScaleFactor: 2,
   xrOfferSession: {
     mode: "auto",
     features: Constants.WebXRRequiredFeatures,
