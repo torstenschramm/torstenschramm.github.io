@@ -1,4 +1,4 @@
-const CacheName = 'MyWonderlandFBX2-static-v1';
+const CacheName = 'Aggertalsperre  Oberer Kontrollgang-static-v1';
 const files = [
     "index.html",
 
