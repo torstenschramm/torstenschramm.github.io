@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <link rel="preload" href="MyWonderlandFBX2-bundle.js?t=2024-04-04T16:33:20.325" as="script">
+    <link rel="preload" href="MyWonderlandFBX2-bundle.js?t=2024-04-05T08:56:53.021" as="script">
     <title>MyWonderlandFBX2</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,8 +87,18 @@
 
     </style>
     
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="homescreen192.png">
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .then(reg => console.log('Service worker registered!', reg))
+                .catch(err => console.log('Unable to register service worker!', err));
+        }
+    </script>
+    
 
-    <script type="module" src="MyWonderlandFBX2-bundle.js?t=2024-04-04T16:33:20.325"></script>
+    <script type="module" src="MyWonderlandFBX2-bundle.js?t=2024-04-05T08:56:53.021"></script>
 
     
     </script>

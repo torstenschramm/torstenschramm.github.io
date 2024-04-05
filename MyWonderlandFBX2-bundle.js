@@ -15462,7 +15462,7 @@ var Constants = {
 };
 var RuntimeOptions = {
   physx: false,
-  loader: true,
+  loader: false,
   xrFramebufferScaleFactor: 1,
   xrOfferSession: {
     mode: "auto",
