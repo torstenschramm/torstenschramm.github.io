@@ -15507,6 +15507,7 @@ engine.registerComponent(MouseLookComponent);
 engine.registerComponent(PlayerHeight);
 engine.registerComponent(TeleportComponent);
 engine.registerComponent(VrModeActiveSwitch);
+engine.registerComponent(WasdControlsComponent);
 engine.scene.load(`${Constants.ProjectName}.bin`).catch((e) => {
   console.error(e);
   window.alert(`Failed to load ${Constants.ProjectName}.bin:`, e);
