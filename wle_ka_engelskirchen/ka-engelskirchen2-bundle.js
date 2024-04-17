@@ -15501,11 +15501,13 @@ if (document.readyState === "loading") {
 }
 engine.registerComponent(Cursor);
 engine.registerComponent(FingerCursor);
+engine.registerComponent(FixedFoveation);
 engine.registerComponent(HandTracking);
 engine.registerComponent(HitTestLocation);
 engine.registerComponent(HowlerAudioListener);
 engine.registerComponent(MouseLookComponent);
 engine.registerComponent(PlayerHeight);
+engine.registerComponent(TargetFramerate);
 engine.registerComponent(TeleportComponent);
 engine.registerComponent(VrModeActiveSwitch);
 engine.registerComponent(WasdControlsComponent);
