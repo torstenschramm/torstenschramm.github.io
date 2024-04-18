@@ -15500,6 +15500,7 @@ if (document.readyState === "loading") {
   setupButtonsXR();
 }
 engine.registerComponent(Cursor);
+engine.registerComponent(CursorTarget);
 engine.registerComponent(FingerCursor);
 engine.registerComponent(FixedFoveation);
 engine.registerComponent(HandTracking);
